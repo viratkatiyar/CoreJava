@@ -1,0 +1,33 @@
+package Patterns;
+
+import java.util.Scanner;
+
+public class Pattern5 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter no. of rows : ");
+        int rows = scan.nextInt();
+        printPattern5(rows);
+    }
+    public static void printPattern5(int n){
+        int sp = n / 2;
+        int st = 1;
+        for(int i = 1; i <= n; i++){
+            for(int j = 1; j <= sp; j++){
+                System.out.print("\t");
+            }
+            for(int j = 1; j <= st; j++){
+                System.out.print("*\t");
+            }
+            if(i <= n/2){
+                sp--;
+                st += 2;
+            }
+            else{
+                sp++;
+                st -= 2;
+            }
+            System.out.println();
+        }
+    }
+}
