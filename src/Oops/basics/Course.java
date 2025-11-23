@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package Oops.basics;
 
 public class Course {
     static int maxCapacity = 100;

@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package Oops.basics;
 
 class Book {
     String title;

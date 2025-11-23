@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package Oops.basics;
 
 public class Driver {
     static int minAgeForDriving = 18;
@@ -22,7 +22,6 @@ public class Driver {
         swift.addFuel(6);
 //        Car startedCar = swift.start();
 //        startedCar.drive(); or
-        swift.start().drive();
 
         Driver myDriver;
         myDriver = new Driver();

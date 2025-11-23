@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package Oops.basics;
 // Instance Methods and Variables
 public class Car {
     int noOfWheels;
